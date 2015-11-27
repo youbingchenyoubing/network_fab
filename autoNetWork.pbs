@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+#PBS -l nodes=c005:ppn=20
+#PBS -l walltime=240:00:00
+#PBS -j oe
+#PBS -N neuralnetwork
+cd /share/home/yangzhiwei/asa_map/protein_protein/dealresult/neuralNetwork 
+
+python psoCaculate.py -f train_feature -C1 4 -C2 4 -v 3 -p 100 -i 1000
+

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "psoCaculate.py", line 4, in <module>
+    import pso
+  File "/share/home/yangzhiwei/asa_map/protein_protein/dealresult/neuralNetwork/pso.py", line 4, in <module>
+    import neuralNetwork
+  File "/share/home/yangzhiwei/asa_map/protein_protein/dealresult/neuralNetwork/neuralNetwork.py", line 3, in <module>
+    import argparse
+ImportError: No module named argparse
